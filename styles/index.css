@@ -3,6 +3,14 @@
     padding: 20px;
 }
 
+    {
+    border: 2px solid black;
+    padding: 25px;
+    background: url(https://cdn.wallpapersafari.com/17/19/JGbfn7.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+}
+
 <style>div.gallery {
     margin: 5px;
     border: 1px solid #ccc;

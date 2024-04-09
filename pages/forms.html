@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,23 +9,33 @@
 
 <body>
 
-<link rel="stylesheet" href="../styles/forms.css" /> 
-<form action="#">
-    <fieldset>
-        <legend>Login</legend>
-        <label for="userName">*Username:
-            <input type="text" name="userName" id="userName" required>
-        </label>
-        <br>
-        <label for="password">*Password:
-            <input type="password" name="password" id="password" required>
-        </label>
-    </fieldset>
-    <input type="submit" value="Login">
+    <style>
+        body {
+            background-image: url(https://images.hdqwalls.com/wallpapers/nature-hd-sd.jpg);
+            background-size:1150px 1150px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
 
-    <input type="submit" value="Forgot Password"> 
-</form>
+
+    <link rel="stylesheet" href="../styles/forms.css" />
+    <form action="#">
+        <fieldset>
+            <legend>Login</legend>
+            <label for="userName">Membername:
+                <input type="text" name="username" id="userName" required>
+            </label>
+            <br>
+            <label for="password">Password:
+                <input type="password" name="password" id="password" required>
+            </label>
+        </fieldset>
+        <input type="submit" value="Login">
+
+        <input type="submit" value="Forgot Password">
+    </form>
 
 
 </body>
+
 </html>
